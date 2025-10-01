@@ -32,15 +32,20 @@ int targetDistance = -1;
 void setup() {
   Serial.begin(115200);
 
+  // set up OLED display
   pinMode(triggerPin, OUTPUT);
   pinMode(echoPin, INPUT);
   digitalWrite(triggerPin, LOW);
+
+  // set up Config button
   pinMode(configPin, INPUT_PULLUP);
 
+  // set up LED strip
   pixels.begin();
   pixels.setBrightness(50); // to prevent overcurrent situation, start low
   pixels.show();
 
+  // initialize OLED display
   if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
     Serial.printf("SSD1306 allocation failed.\n");
     while (1); // halt
@@ -48,6 +53,7 @@ void setup() {
   display.clearDisplay();
   display.display();
 
+  // fetch stored target distance value
   EEPROM.begin(4);
   EEPROM.get(0, targetDistance);
   Serial.printf("Target Distance: %d\n", targetDistance);
@@ -56,8 +62,8 @@ void setup() {
 // Arduino loop function. Runs in CPU 1.
 void loop() {
   int distance = processDistance();
-  processDisplay(distance, targetDistance);
-  processPixels(distance, targetDistance);
+  processDisplay(distance);
+  processPixels(distance);
   processConfig(distance);
 
   delay(100);
@@ -68,12 +74,13 @@ int processDistance() {
   digitalWrite(triggerPin, HIGH);
   delayMicroseconds(10);
   digitalWrite(triggerPin, LOW);
+  // calculate distance from echo duration
   int distance = pulseIn(echoPin, HIGH) * .034 / 2;
   Serial.printf("Ultrasonic distance: %d\n", distance);
   return distance;
 }
 
-void processDisplay(int distance, int targetDistance) {
+void processDisplay(int distance) {
   Serial.printf("Distance: %d\n", distance);
   display.clearDisplay();
   display.setTextSize(1);
@@ -85,9 +92,8 @@ void processDisplay(int distance, int targetDistance) {
   display.display();
 }
 
-void processPixels(int distance, int targetDistance) {
+void processPixels(int distance) {
   static uint16_t hue = 0;
-
   pixels.rainbow(hue, 20);
   pixels.show();
   hue += 256;
@@ -98,7 +104,10 @@ void processPixels(int distance, int targetDistance) {
 
 void processConfig(int distance) {
   if (digitalRead(configPin) == LOW) {
-    EEPROM.put(0, distance);
-    Serial.printf("Stored target distance: %d\n", distance);
+    // store current distance as target distance in EEPROM
+    targetDistance = distance;
+    EEPROM.put(0, targetDistance);
+    Serial.printf("Stored target distance: %d\n", targetDistance);
+    delay(1000);
   }
 }

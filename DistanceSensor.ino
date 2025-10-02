@@ -51,6 +51,7 @@ void setup() {
     while (1); // halt
   }
   display.clearDisplay();
+  display.setTextColor(WHITE);
   display.display();
 
   // fetch stored target distance value
@@ -85,10 +86,11 @@ void processDisplay(int distance) {
   display.clearDisplay();
   display.setTextSize(1);
   display.setCursor(0, 0);
-  display.println("Parking Assistant");
   display.print("Distance: ");
   display.setTextSize(2);
-  display.printf("%d cm", distance);
+  display.printf("%d cm\n", distance);
+  display.setTextSize(1);
+  display.printf("Target distance: %d", targetDistance);
   display.display();
 }
 
@@ -108,6 +110,10 @@ void processConfig(int distance) {
     targetDistance = distance;
     EEPROM.put(0, targetDistance);
     Serial.printf("Stored target distance: %d\n", targetDistance);
+    display.setCursor(0,24);
+    display.setTextSize(1);
+    display.print("Target Distance SAVED.")
+    display.display();
     delay(1000);
   }
 }

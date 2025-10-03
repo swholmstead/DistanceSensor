@@ -15,7 +15,7 @@
 #define numLEDs       36
 
 // pin for configuration button
-#define configPin     16
+#define configPin     D3
 
 // pins for OLED display
 #define sdaPin        4
@@ -29,7 +29,7 @@
 #define IDLE_COLOR pixels.Color(0,0,0)
 #define STOP_COLOR pixels.Color(255,0,0)
 #define GO_COLOR   pixels.Color(0,255,0)
-#define BACK_COLOR pixels.Color(16,16,16)
+#define BACK_COLOR pixels.Color(0,0,64)
 
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(numLEDs, ledPin, NEO_GRB + NEO_KHZ800);
 Adafruit_SSD1306 display(screenWidth, screenHeight, &Wire, oledReset);

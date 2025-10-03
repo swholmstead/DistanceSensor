@@ -27,7 +27,8 @@
 // #define powerOnDistance 250  // 250 cm is approx 8 feet
 #define powerOnDistance 100  // 250 cm is approx 8 feet
 #define detectionRange  20   // start detecting 20 cm (8 inches) beyond powerOnDistance
-#define idleTimeout 50       // ~5 seconds
+#define idleTimeout     50   // 5 seconds
+#define idleRange       10   // 4 inches
 #define IDLE_COLOR pixels.Color(0, 0, 0)
 #define STOP_COLOR pixels.Color(255, 0, 0)
 #define GO_COLOR pixels.Color(0, 255, 0)
@@ -38,6 +39,7 @@ Adafruit_SSD1306 display(screenWidth, screenHeight, &Wire, oledReset);
 int targetDistance = 1;
 float pixelSize = 1.0;
 int idleCount = 0;
+int idleDistance = -1;
 
 // Arduino setup function. Runs in CPU 1
 void setup() {
@@ -94,7 +96,7 @@ int processDistance() {
 
 void processDisplay(int distance) {
   display.clearDisplay();
-  if (distance <= powerOnDistance + detectionRange && idleCount < idleTimeout) {
+  if (distance <= powerOnDistance + detectionRange && !isIdle(distance)) {
     display.setTextSize(2);
     display.setCursor(0, 0);
     display.printf("%.1f ft\n", distance / 2.54 / 12.0);
@@ -104,7 +106,7 @@ void processDisplay(int distance) {
 }
 
 void processPixels(int distance) {
-  if (distance > powerOnDistance + detectionRange) {
+  if (distance > powerOnDistance + detectionRange || isIdle(distance)) {
     pixels.fill(IDLE_COLOR, 0, numLEDs);
   } else if (distance > targetDistance) {
     pixels.fill(BACK_COLOR, 0, numLEDs);
@@ -113,7 +115,12 @@ void processPixels(int distance) {
       pixels.fill(GO_COLOR, 0, closeness);
       pixels.fill(GO_COLOR, numLEDs - closeness, closeness);
     }
-    idleCount = 0;
+    if (abs(distance - idleDistance) < idleRange) {
+      idleCount++;
+    } else {
+      idleCount = 0;
+      idleDistance = distance;
+    }
   } else {
     pixels.fill(STOP_COLOR, 0, numLEDs);
     if (idleCount >= idleTimeout) {
@@ -142,4 +149,8 @@ void processConfig(int distance) {
     display.display();
     delay(2000);
   }
+}
+
+bool isIdle(int distance) {
+  return abs(distance - idleDistance) < idleRange && idleCount >= idleTimeout;
 }

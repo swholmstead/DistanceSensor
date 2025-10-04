@@ -1,11 +1,14 @@
 <h1>Distance Sensor Project</h1>
 
-This project hooks up a ESP8266 D1 Mini to the following components.  It was originally designed to operate as a Parking Assist device for the garage.
+This is a DIY parking sensor to assist you parking your vehicle in the garage.  It is simple to make and
+is very affordable.  This project contains everything that you need to build the electronics, 3D print
+the case, and download the software.
 
-* Ultrasonic distance sensor HC-SR04
-* OLED display with 128 x 32 pixels
-* LED strip lights WS2812b (full color, individually addressable)
-* Configuration push button
+It uses an ultrasonic distance sensor to detect the distance to the car.  It displays the distance on the OLED
+display and uses an LED strip to visual indicate your progress to the "perfect" parking distance.
+
+There is a pushbutton to set the "perfect" parking distance.  Just position your vehicle where you want it to be
+and push the SAVE button.  It stores that distance in EEPROM so that it will remember even after power fail.
 
 <h2>Table of Contents</h2>
 

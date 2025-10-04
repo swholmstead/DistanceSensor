@@ -17,6 +17,7 @@ If the links don't work, just search for the components from wherever you shop.
         * IP30 - no waterproofing
         * IP65 - covered in clear silicone
         * IP67 - incased in a waterproof sleeve
+* Tact Button switch 2 pin 6x6x5mm [Amazon](https://www.amazon.com/dp/B07X8T9D2Q) [AliExpress](https://www.aliexpress.us/item/3256807146533442.html)
 * 5V Buck Converter [Amazon](https://www.amazon.com/dp/B0DGPZ91BD) [AliExpress](https://www.aliexpress.us/item/3256807692095306.html)
 * PCB Headers 2.54mm pitch [Amazon](https://www.amazon.com/dp/B08DVGCTKT) [AliExpress](https://www.aliexpress.us/item/2255800687544049.html)
 * JST-XH connectors 3 pin (qty 1) [Amazon](https://www.amazon.com/dp/B0CF283MG6) [AliExpress](https://www.aliexpress.us/item/2251832540932752.html)

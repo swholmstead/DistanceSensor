@@ -71,8 +71,7 @@ void setup() {
   // fetch stored target distance value
   EEPROM.begin(sizeof(targetDistance));
   EEPROM.get(0, targetDistance);
-  pixelSize = (powerOnDistance - targetDistance) * 2.0 / (numLEDs + 1);
-  Serial.printf("Target Distance: %d  pixelSize: %0.2f\n", targetDistance, pixelSize);
+  calcPixelSize();
 }
 
 // Arduino loop function. Runs in CPU 1.
@@ -139,8 +138,7 @@ void processConfig(int distance) {
     targetDistance = distance;
     EEPROM.put(0, targetDistance);
     EEPROM.commit();
-    pixelSize = (powerOnDistance - targetDistance) * 2 / numLEDs;
-    Serial.printf("New Target Distance: %d  pixelSize\n", targetDistance, pixelSize);
+    calcPixelSize();
     display.clearDisplay();
     display.setCursor(0, 0);
     display.setTextSize(3);
@@ -154,4 +152,8 @@ void processConfig(int distance) {
 
 bool isIdle(int distance) {
   return (abs(distance - idleDistance) < idleRange) && (idleCount >= idleTimeout);
+}
+
+void calcPixelSize() {
+  pixelSize = (powerOnDistance - targetDistance) * 2.0 / (numLEDs + 2);
 }

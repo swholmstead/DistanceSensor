@@ -5,8 +5,8 @@ If the links don't work, just search for the components from wherever you shop.
 
 * ESP8266 D1 Mini controller [Amazon](https://www.amazon.com/dp/B0BK986HLZ) [AliExpress](https://www.aliexpress.us/item/3256807691590176.html)
     * There are older versions with micro USB connector.  I prefer the newer version with USB-C connector.
-* HC-SR04 Ultrasonic Sensor [Amazon](https://www.amazon.com/dp/B07HQG5K5T)(https://www.aliexpress.us/item/3256808598031205.html)
-* SSD1306 OLED Display Module 128 x 32 Pixel[Amazon](https://www.amazon.com/dp/B079BN2J8V) [AliExpress](https://www.aliexpress.us/item/3256807486098308.html)
+* HC-SR04 Ultrasonic Sensor [Amazon](https://www.amazon.com/dp/B07HQG5K5T) [AliExpress](https://www.aliexpress.us/item/3256808598031205.html)
+* SSD1306 OLED Display Module 128 x 32 Pixel [Amazon](https://www.amazon.com/dp/B079BN2J8V) [AliExpress](https://www.aliexpress.us/item/3256807486098308.html)
 * WS2812B RGB 5050SMD Individually Addressable LED strip light 60 LED/m DC5V [Amazon](https://www.amazon.com/dp/B0956Q3L4Q) [AliExpress](https://www.aliexpress.us/item/3256806929208460.html)
     * This project only needs 36 LEDs.  You can cut the strip to length as long as you cut in the middle of the
       copper solder pads.  
@@ -25,4 +25,4 @@ If the links don't work, just search for the components from wherever you shop.
 * 5V 3A DC power supply [Amazon](https://www.amazon.com/dp/B09NLMVXMZ) [AliExpress](https://www.aliexpress.us/item/3256806901002886.html)
 * SN74AHCT125N Quad Bus Buffer [Amazon](https://www.amazon.com/dp/B0DXK7PWTN) [AliExpress](https://www.aliexpress.us/item/3256807624678371.html)
 * 2k and 3K SMT resistor [Amazon](https://www.amazon.com/dp/B0BZGZRN4K) [AliExpress](https://www.aliexpress.us/item/3256802835223851.html)
-    * Get the assortment with both resistor values in the same set.
+    * Get the assortment pack with both resistor values in the same set

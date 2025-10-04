@@ -143,9 +143,11 @@ void processConfig(int distance) {
     Serial.printf("New Target Distance: %d  pixelSize\n", targetDistance, pixelSize);
     display.clearDisplay();
     display.setCursor(0, 0);
-    display.setTextSize(2);
+    display.setTextSize(3);
     display.print("SAVED");
     display.display();
+    pixels.fill(GO_COLOR, 0, numLEDs);
+    pixels.show();
     delay(2000);
   }
 }

@@ -14,21 +14,3 @@ It will automatically fill in most options once you have uploaded the file.  No 
 <h2>Printed Circuit Board</h2>
 <img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/PCB.png" alt="PCB" width=400>
 
-<h2>Electronics assembly</h2>
-
-Solder all socket components on the PCB.
-
-<h3>5V Buck Converter</h3>
-Assembly the 5V buck converter. Ensure that the 5V jumper has solder and you use an exacto knife to cut the trace above the ADJ jumper.
-
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/S20250310_0001.jpg" alt="Buck Converter" width=600>
-
-Assembly the PCB and 5V buck converter.  Turn on power and ensure buck converter is generating +5V.
-There are labeled test points on the LED pins that you can use.
-
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_xxxx.JPEG" alt="Buck Converter" width=600>
-
-Add ESP8266 board to PCB.  Ensure that processor LED illuminate when power is on.
-
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_xxxx.JPEG" alt="Buck Converter" width=400>
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3527.JPEG" alt="Buck Converter" width=400>

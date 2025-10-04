@@ -15,5 +15,5 @@ and push the SAVE button.  It stores that distance in EEPROM so that it will rem
 * 3D Models
 * [Bill of Materials](docs/bom.md)
 * [Schematic and Printed Circuit Board](docs/schematics.md)
-* [Assembly Instructions](docs/assembly.md)
 * [Arduino IDE and Software](docs/arduino.md)
+* [Assembly Instructions](docs/assembly.md)

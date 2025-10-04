@@ -28,7 +28,7 @@
 #define powerOnDistance 100  // 250 cm is approx 8 feet
 #define detectionRange  20   // start detecting 20 cm (8 inches) beyond powerOnDistance
 #define idleTimeout     50   // 5 seconds
-#define idleRange       10   // 4 inches
+#define idleRange       5    // 5 cm or approx 2 inches
 #define IDLE_COLOR pixels.Color(0, 0, 0)
 #define STOP_COLOR pixels.Color(255, 0, 0)
 #define GO_COLOR pixels.Color(0, 255, 0)
@@ -125,8 +125,7 @@ void processPixels(int distance) {
     pixels.fill(STOP_COLOR, 0, numLEDs);
     if (idleCount >= idleTimeout) {
       pixels.fill(IDLE_COLOR, 0, numLEDs);
-      display.clearDisplay();
-      display.display();
+      idleDistance = distance;
     } else {
       idleCount++;
     }
@@ -152,5 +151,5 @@ void processConfig(int distance) {
 }
 
 bool isIdle(int distance) {
-  return abs(distance - idleDistance) < idleRange && idleCount >= idleTimeout;
+  return (abs(distance - idleDistance) < idleRange) && (idleCount >= idleTimeout);
 }

@@ -12,5 +12,8 @@ It will automatically fill in most options once you have uploaded the file.  No 
 <h2>Schematic</h2>
 <img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/schematic.png" alt="Schematic" width=800>
 <h2>Printed Circuit Board</h2>
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/PCB.png" alt="PCB" width=400>
+<div style="display: flex; gap: 20x;">
+    <img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/PCB Front.png" alt="PCB" width=400>
+    <img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/PCB Back.png" alt="PCB" width=400>
+</div>
 

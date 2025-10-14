@@ -11,7 +11,7 @@
 
 // config for LED strip
 #define ledPin        D7
-#define numLEDs       36  // number of LEDs in strip, needs to be an even number
+#define numLEDs       36  // number of LEDs used in strip, needs to be an even number
 #define IDLE_COLOR    pixels.Color(0, 0, 0)   // BLACK or OFF
 #define STOP_COLOR    pixels.Color(255, 0, 0) // RED
 #define GO_COLOR      pixels.Color(0, 255, 0) // GREEN

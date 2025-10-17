@@ -12,10 +12,11 @@
 // config for LED strip
 #define ledPin        D7
 #define numLEDs       36  // number of LEDs used in strip, needs to be an even number
+#define maxBright     255 // 0-255 max brightness
 #define IDLE_COLOR    pixels.Color(0, 0, 0)   // BLACK or OFF
 #define STOP_COLOR    pixels.Color(255, 0, 0) // RED
 #define GO_COLOR      pixels.Color(0, 255, 0) // GREEN
-#define BACK_COLOR    pixels.Color(0, 0, 64)  // faint BLUE
+#define BACK_COLOR    pixels.Color(0, 0, 128)  // faint BLUE
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(numLEDs, ledPin, NEO_GRB + NEO_KHZ800);
 float pixelSize = 1.0;    // the physical distance that each LED represents in cm
 
@@ -57,7 +58,7 @@ void setup()
 
   // set up LED strip
   pixels.begin();
-  pixels.setBrightness(50);  // to prevent overcurrent situation, start low
+  pixels.setBrightness(maxBright);  // to prevent overcurrent situation, start low
   pixels.show();
 
   // initialize OLED display

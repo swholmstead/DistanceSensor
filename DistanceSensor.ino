@@ -33,7 +33,7 @@ Adafruit_SSD1306 display(screenWidth, screenHeight, &Wire, oledReset);
 
 // general config
 #define detectRange   250 // distance where we start displaying distance in cm (approx 8 feet)
-#define detectOffset  20  // Offset from detectRange in cm to start displaying GO_COLOR (approx 8 in)
+#define detectOffset  100  // Offset from detectRange in cm to start displaying GO_COLOR (approx 3 feet)
 #define idleTimeout   50  // in 0.1 sec increments
 #define idleRange     5   // idle when distance doesn't deviate more than this range in cm (approx 1 in)
 #define CMtoFT(x)     (x / 2.54 / 12.0)
@@ -82,6 +82,7 @@ void setup()
 void loop()
 {
   int distance = processDistance();
+  // Serial.printf("Distance: %d\n", distance);
   processDisplay(distance);
   processPixels(distance);
   processConfig(distance);

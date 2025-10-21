@@ -48,6 +48,10 @@ void setup()
   Serial.begin(74880);  // default baud rate for bootloader
   Serial.printf("\n\nESP8266 D1 mini startup...\n");
 
+  // onboard LED
+  pinMode(LED_BUILTIN, OUTPUT);
+  digitalWrite(LED_BUILTIN, LOW);
+
   // set up OLED display
   pinMode(triggerPin, OUTPUT);
   pinMode(echoPin, INPUT);

@@ -69,6 +69,10 @@ void setup()
   }
   display.clearDisplay();
   display.setTextColor(WHITE);
+  display.setTextSize(2);
+  display.setCursor(0, 0);
+  display.printf("LEDs: %d\n", numLEDs);
+  display.print("Ver: 1.0");
   display.display();
 
   // fetch stored target distance value
@@ -76,6 +80,7 @@ void setup()
   EEPROM.get(0, targetDistance);
   calcPixelSize();
   Serial.printf("EEPROM target distance: %d cm\nPixel Size: %0.1f cm\n", targetDistance, pixelSize);
+  delay(5000);
 }
 
 // Arduino loop function. Runs in CPU 1.

@@ -59,6 +59,7 @@ void setup()
   // set up LED strip
   pixels.begin();
   pixels.setBrightness(maxBright);  // to prevent overcurrent situation, start low
+  pixels.rainbow();
   pixels.show();
 
   // initialize OLED display

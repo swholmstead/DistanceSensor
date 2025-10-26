@@ -8,7 +8,7 @@ If the links don't work, just search for the components from wherever you shop.
 * HC-SR04 Ultrasonic Sensor [Amazon](https://www.amazon.com/dp/B07HQG5K5T) [AliExpress](https://www.aliexpress.us/item/3256808598031205.html)
 * SSD1306 OLED Display Module 128 x 32 Pixel [Amazon](https://www.amazon.com/dp/B079BN2J8V) [AliExpress](https://www.aliexpress.us/item/3256807486098308.html)
 * WS2812B RGB 5050SMD Individually Addressable LED strip light 60 LED/m DC5V [Amazon](https://www.amazon.com/dp/B0956Q3L4Q) [AliExpress](https://www.aliexpress.us/item/3256806929208460.html)
-    * This project only needs 36 LEDs.  You can cut the strip to length as long as you cut in the middle of the
+    * This project only needs 40 LEDs.  You can cut the strip to length as long as you cut in the middle of the
       copper solder pads.  
     * You can also change the number of LEDs in software.  NOTE: More LEDs will draw more power, so you may need
       to get a bigger power supply.

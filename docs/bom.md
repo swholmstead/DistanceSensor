@@ -15,7 +15,7 @@ If the links don't work, just search for the components from wherever you shop.
     * Make sure you buy the 5V version, NOT 12V or 24V.
     * You can different options with various levels of waterproofing
         * IP30 - no waterproofing
-        * IP65 - covered in clear silicone
+        * IP65 - covered in clear silicone (I used this one)
         * IP67 - incased in a waterproof sleeve
 * Tact Button switch 2 pin 6x6x5mm [Amazon](https://www.amazon.com/dp/B07X8T9D2Q) [AliExpress](https://www.aliexpress.us/item/3256807146533442.html)
 * SN74AHCT125N Quad Bus Buffer [Amazon](https://www.amazon.com/dp/B0DXK7PWTN) [AliExpress](https://www.aliexpress.us/item/3256807624678371.html)

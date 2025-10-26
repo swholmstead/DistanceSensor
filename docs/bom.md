@@ -19,7 +19,7 @@ If the links don't work, just search for the components from wherever you shop.
         * IP67 - incased in a waterproof sleeve
 * Tact Button switch 2 pin 6x6x5mm [Amazon](https://www.amazon.com/dp/B07X8T9D2Q) [AliExpress](https://www.aliexpress.us/item/3256807146533442.html)
 * SN74AHCT125N Quad Bus Buffer [Amazon](https://www.amazon.com/dp/B0DXK7PWTN) [AliExpress](https://www.aliexpress.us/item/3256807624678371.html)
-* 2k and 3K SMT resistor [Amazon](https://www.amazon.com/dp/B0BZGZRN4K) [AliExpress](https://www.aliexpress.us/item/3256802835223851.html)
+* 2k and 3k 1206 SMD resistors [Amazon](https://www.amazon.com/dp/B0BB113PJC) [AliExpress](https://www.aliexpress.us/item/3256807716137879.html)
     * Get the assortment pack with both resistor values in the same set
 * PCB Headers 2.54mm pitch [Amazon](https://www.amazon.com/dp/B08DVGCTKT) [AliExpress](https://www.aliexpress.us/item/2255800687544049.html)
 * JST-XH connectors 3 pin (qty 1) [Amazon](https://www.amazon.com/dp/B0CF283MG6) [AliExpress](https://www.aliexpress.us/item/2251832540932752.html)

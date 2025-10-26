@@ -11,7 +11,7 @@ If the links don't work, just search for the components from wherever you shop.
     * This project only needs 40 LEDs.  You can cut the strip to length as long as you cut in the middle of the
       copper solder pads.  
     * You can also change the number of LEDs in software.  NOTE: More LEDs will draw more power, so you may need
-      to get a bigger power supply.
+      to check power consumption and ensure the power supply can supply it.
     * Make sure you buy the 5V version, NOT 12V or 24V.
     * You can different options with various levels of waterproofing
         * IP30 - no waterproofing

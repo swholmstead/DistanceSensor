@@ -25,7 +25,7 @@ Attach case back with screws.
 
 <h3>Strip of LED lights</h3>
 
-Cut 36 lights from the spool of WS1812b LED lights.  Solder on JST-XH 3 pin connector on side with DIN label and
+Cut 40 lights from the spool of WS1812b LED lights.  Solder on JST-XH 3 pin connector on side with DIN label and
 arrows pointing AWAY.
 
 Plug LED strip into case.

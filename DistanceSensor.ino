@@ -17,6 +17,7 @@
 #define STOP_COLOR    pixels.Color(255, 0, 0) // RED
 #define GO_COLOR      pixels.Color(0, 255, 0) // GREEN
 #define BACK_COLOR    pixels.Color(0, 0, 128)  // faint BLUE
+
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(numLEDs, ledPin, NEO_GRB + NEO_KHZ800);
 float pixelSize = 1.0;    // the physical distance that each LED represents in cm
 
@@ -56,13 +57,7 @@ void setup()
   // set up Config button
   pinMode(configPin, INPUT_PULLUP);
 
-  // set up LED strip
-  pixels.begin();
-  pixels.setBrightness(maxBright);  // to prevent overcurrent situation, start low
-  pixels.rainbow();
-  pixels.show();
-
-  // initialize OLED display
+   // initialize OLED display
   if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C))
   {
     Serial.printf("SSD1306 allocation failed.\n");
@@ -76,12 +71,19 @@ void setup()
   display.print("Ver: 1.0");
   display.display();
 
+ // set up LED strip
+  pixels.begin();
+  pixels.setBrightness(maxBright);  // to prevent overcurrent situation, start low
+  runningLEDs();
+  pixels.rainbow();
+  pixels.show();
+
   // fetch stored target distance value
   EEPROM.begin(sizeof(targetDistance));
   EEPROM.get(0, targetDistance);
   calcPixelSize();
   Serial.printf("EEPROM target distance: %d cm\nPixel Size: %0.1f cm\n", targetDistance, pixelSize);
-  delay(5000);
+  delay(2000);
 }
 
 // Arduino loop function. Runs in CPU 1.
@@ -192,4 +194,22 @@ void calcPixelSize()
 {
   // calculates how much physical distance each LED pixel represents
   pixelSize = (detectRange - targetDistance) * 2.0 / (numLEDs + 2);
+}
+
+void runningLEDs()
+{
+  long off = pixels.Color(0, 0, 0);
+  for (int colorLoop = 0; colorLoop < 3; colorLoop++)
+  {
+    long color = pixels.Color((colorLoop == 0 ? 255 : 0), (colorLoop == 1 ? 255 : 0), (colorLoop == 2 ? 255 : 0));
+    for (int count = 0; count < pixels.numPixels(); count++)
+    {
+      pixels.fill(off, 0, pixels.numPixels());
+      pixels.setPixelColor((colorLoop%2 == 0 ? count : pixels.numPixels() - count - 1), color);
+      pixels.show();
+      delay(20);
+    }
+  }
+  pixels.fill(off, 0, pixels.numPixels());
+  pixels.show();
 }

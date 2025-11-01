@@ -56,27 +56,15 @@ Bend the 4 pins on the HC-SR04 to be straight out.
 
 Solder the HC-SR04 onto the PCB.
 
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_xxxx.JPEG" alt="Solder" width=400>
-
 Add the following components to the PCB:
 
 * ESP8266 D1 Mini
-* HC-SR04 Ultrasonic sensor
-* SSD1306 OLED display
-* SN74AHCT125N Quad Buffer
-
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3527.JPEG" alt="All Components" width=400>
 
 <h3>Controller Case</h3>
 
 Insert circuit board into 3D printed case.  Secure with screws.
 
 Attach case back with screws.
-
-<h3>Strip of LED lights</h3>
-
-Cut 40 lights from the spool of WS1812b LED lights.  Solder on JST-XH 3 pin connector on side with DIN label and
-arrows pointing AWAY.
 
 Plug LED strip into case.
 

@@ -15,7 +15,7 @@ about 3mm from each wire and solder the wires to the exposed pad.
 * Din - YELLOW
 * GND - BLACK
 
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3784JPEG" alt="WS2812B" width=600>
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3784.JPEG" alt="WS2812B" width=600>
 
 Crimp JST XH connectors to other end of cable and insert into FEMALE 3-pin JST-XH connector in the same order as shown.
 

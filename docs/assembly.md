@@ -23,7 +23,7 @@ Crimp JST XH connectors to other end of cable and insert into FEMALE 3-pin JST-X
 
 Add shrink tubing to both ends (optional).
 
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3786.JPEG" alt="WS2812B" width=600>
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3787.JPEG" alt="WS2812B" width=600>
 
 <h3>Electronics assembly</h3>
 

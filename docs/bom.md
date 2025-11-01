@@ -22,7 +22,7 @@ If the links don't work, just search for the components from wherever you shop.
 * 2k and 3k 1206 SMD resistors [Amazon](https://www.amazon.com/dp/B0BB113PJC) [AliExpress](https://www.aliexpress.us/item/3256807716137879.html)
     * Get the assortment pack with both resistor values in the same set
 * PCB Headers 2.54mm pitch [Amazon](https://www.amazon.com/dp/B08DVGCTKT) [AliExpress](https://www.aliexpress.us/item/2255800687544049.html)
-* JST-XH connectors 3 pin (qty 1) [Amazon](https://www.amazon.com/dp/B0CF283MG6) [AliExpress](https://www.aliexpress.us/item/2251832540932752.html)
+* JST-XH FEMALE connectors 3 pin (qty 1) [Amazon](https://www.amazon.com/dp/B0B2R99X99) [AliExpress](https://www.aliexpress.us/item/3256805824741552.html)
 * JST-XH right angle male connector 3 pin [Amazon](https://www.amazon.com/dp/B0BMDZR7RZ) [AliExpress](https://www.aliexpress.us/item/3256808303698578.html)
 * DC Power Barrel Jack 2.1mm Female [Amazon](https://www.amazon.com/dp/B09ZBN38FS) [AliExpress](https://www.aliexpress.us/item/2251832423972836.html)
 * 5V 3A DC power supply [Amazon](https://www.amazon.com/dp/B09NLMVXMZ) [AliExpress](https://www.aliexpress.us/item/3256806901002886.html)

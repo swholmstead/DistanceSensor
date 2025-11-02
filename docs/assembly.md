@@ -72,6 +72,10 @@ Plug LED strip into case.
 
 Attach case at vehicle bumper height and route LED strip to about eye height while sitting in vehicle.
 
+Secure cable and LEDs with clips.
+
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3794.JPEG" alt="Clips" width=600>
+
 Plug in 5V power supply.  Circuit will start immediately.
 
 Place vehicle in ideal parking spot and press Config button through case exterior hole.  This will save the 

@@ -35,8 +35,8 @@ Solder the following components onto the front side of the PCB.
 
 Trim off pins on back side of PCB to be flush with board (doesn't need to be perfectly flush).
 
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/solder1.png" alt="WS2812B" width=600>
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3795.JPEG" alt="WS2812B" width=600>
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/Solder1.png" alt="PCB" width=600>
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3795.JPEG" alt="PCB" width=600>
 
 
 Solder the following components onto the back side of the PCB.
@@ -47,48 +47,48 @@ Solder the following components onto the back side of the PCB.
 
 Trim off pins on front side of PCB to be flush with board.
 
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3796.JPEG" alt="WS2812B" width=600>
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3796.JPEG" alt="PCB" width=600>
 
 Cover the area under where the SSD-1306 OLED display will go with electrical tape
 to ensure this component will not short with the PCB.
 
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3798.JPEG" alt="WS2812B" width=600>
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3798.JPEG" alt="PCB" width=600>
 
 Bend the pins on the HC-SR04 ultrasonic sensor so they are straight.  Then cover the back
 with electrical tape to ensure this component will not short with the PCB.
 
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3799.JPEG" alt="WS2812B" width=600>
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3799.JPEG" alt="PCB" width=600>
 
 Solder a 4 pin header onto the SSD1306 OLED display with the pins behind the display.
 Solder the OLED display to the PCB.  Insert Display Offset 3D printed part behind the right side of the display
 to stablize it.
 
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3800.JPEG" alt="WS2812B" width=600>
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3800.JPEG" alt="PCB" width=600>
 
 Solder the HC-SR04 onto the PCB.
 
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3801.JPEG" alt="WS2812B" width=600>
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3801.JPEG" alt="PCB" width=600>
 
 
 Add the following components to the PCB:
 
 * ESP8266 D1 Mini
 
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3804.JPEG" alt="WS2812B" width=600>
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3804.JPEG" alt="PCB" width=600>
 
 Insert the power supply to ensure PCB powers on.
 
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3802.JPEG" alt="WS2812B" width=400>
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3802.JPEG" alt="PCB" width=400>
 
 <h3>Controller Case</h3>
 
 Insert Save Button into back of 3D printed case.  Insert circuit board into case.  Secure with 2 M1.7 x 5mm screws.
 
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3805.JPEG" alt="WS2812B" width=400>
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3805.JPEG" alt="Case" width=400>
 
 Attach case back with 4 M1.7 x 5mm screws.
 
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3806.JPEG" alt="WS2812B" width=400>
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3806.JPEG" alt="Case" width=400>
 
 
 <h3>Operation</h3>

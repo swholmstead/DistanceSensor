@@ -82,6 +82,8 @@ Insert the power supply to ensure PCB powers on.
 <h3>Controller Case</h3>
 
 Insert Save Button into back of 3D printed case.  Insert circuit board into case.  Secure with 2 M1.7 x 5mm screws.
+Use care not to bend ultrasonic sensor when inserting screws.  Test Save Button.  You should feel a tactile click
+when pushing.
 
 <img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3805.JPEG" alt="Case" width=400>
 

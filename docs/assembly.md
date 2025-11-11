@@ -47,7 +47,7 @@ Solder the following components onto the back side of the PCB.
 
 Trim off pins on front side of PCB to be flush with board.
 
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3796.JPEG" alt="PCB" width=600>
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3797.JPEG" alt="PCB" width=600>
 
 Cover the area under where the SSD-1306 OLED display will go with electrical tape
 to ensure this component will not short with the PCB.
@@ -68,7 +68,6 @@ to stablize it.
 Solder the HC-SR04 onto the PCB.
 
 <img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3801.JPEG" alt="PCB" width=600>
-
 
 Add the following components to the PCB:
 

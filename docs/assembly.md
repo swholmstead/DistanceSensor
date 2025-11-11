@@ -1,7 +1,5 @@
 <h2>Assembly Instructions</h2>
 
-<b>WORK IN PROGRESS</b>
-
 <h3>LED strip</h3>
 
 Cut 40 LEDs from the spool of WS2812B lights at the copper pads between LEDs.  Remove any waterproofing from over the pad on the side with the arror pointing AWAY from the copper pad.
@@ -37,6 +35,10 @@ Solder the following components onto the front side of the PCB.
 
 Trim off pins on back side of PCB to be flush with board (doesn't need to be perfectly flush).
 
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/solder1.png" alt="WS2812B" width=600>
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3795.JPEG" alt="WS2812B" width=600>
+
+
 Solder the following components onto the back side of the PCB.
 
 * 8 pin headers on boths sides of where the ESP8266 processor will go
@@ -45,41 +47,63 @@ Solder the following components onto the back side of the PCB.
 
 Trim off pins on front side of PCB to be flush with board.
 
-Cover the area under where the HC-SR04 ultrasonic sensor and SSD1306 OLED display will go with electrical tape
-to ensure the back of these components will not short with the PCB.
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3796.JPEG" alt="WS2812B" width=600>
 
-Solder a 3 pin header onto the SSD1306 OLED display with the pins behind the display.
+Cover the area under where the SSD-1306 OLED display will go with electrical tape
+to ensure this component will not short with the PCB.
 
-Solder the OLED display to the PCB.
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3798.JPEG" alt="WS2812B" width=600>
 
-Bend the 4 pins on the HC-SR04 to be straight out.
+Bend the pins on the HC-SR04 ultrasonic sensor so they are straight.  Then cover the back
+with electrical tape to ensure this component will not short with the PCB.
+
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3799.JPEG" alt="WS2812B" width=600>
+
+Solder a 4 pin header onto the SSD1306 OLED display with the pins behind the display.
+Solder the OLED display to the PCB.  Insert Display Offset 3D printed part behind the right side of the display
+to stablize it.
+
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3800.JPEG" alt="WS2812B" width=600>
 
 Solder the HC-SR04 onto the PCB.
+
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3801.JPEG" alt="WS2812B" width=600>
+
 
 Add the following components to the PCB:
 
 * ESP8266 D1 Mini
 
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3804.JPEG" alt="WS2812B" width=600>
+
+Insert the power supply to ensure PCB powers on.
+
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3802.JPEG" alt="WS2812B" width=400>
+
 <h3>Controller Case</h3>
 
-Insert circuit board into 3D printed case.  Secure with screws.
+Insert Save Button into back of 3D printed case.  Insert circuit board into case.  Secure with 2 M1.7 x 5mm screws.
 
-Attach case back with screws.
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3805.JPEG" alt="WS2812B" width=400>
 
-Plug LED strip into case.
+Attach case back with 4 M1.7 x 5mm screws.
+
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3806.JPEG" alt="WS2812B" width=400>
+
 
 <h3>Operation</h3>
 
 Attach case at vehicle bumper height and route LED strip to about eye height while sitting in vehicle.
+Plug LED strip into case.  Secure cable and LEDs with clips.
 
-Secure cable and LEDs with clips.
-
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3794.JPEG" alt="Clips" width=600>
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3807.JPEG" alt="Clips" width=600>
 
 Plug in 5V power supply.  Circuit will start immediately.
 
-Place vehicle in ideal parking spot and press Config button through case exterior hole.  This will save the 
-vehicle current position distance in the EEPROM.
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3809.JPEG" alt="Clips" width=600>
+
+Place vehicle in ideal parking spot and press Save Button.  This will save the vehicle current position
+distance in the EEPROM.
 
 Back out vehicle and pull in to verify operation.
 

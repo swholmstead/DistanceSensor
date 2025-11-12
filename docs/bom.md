@@ -4,7 +4,7 @@ All of these components are common and can be found online.  I have provided lin
 If the links don't work, just search for the components from wherever you shop.
 
 * ESP8266 D1 Mini controller (qty 1) [Amazon](https://www.amazon.com/dp/B0BK986HLZ) [AliExpress](https://www.aliexpress.us/item/3256807691590176.html)
-    * There are older versions with micro USB connector.  I prefer the newer version with USB-C connector.
+    * There are older versions with micro USB connector.  I prefer the newer version with USB-C connector.  Either will work.
 * HC-SR04 Ultrasonic Sensor (qty 1) [Amazon](https://www.amazon.com/dp/B07HQG5K5T) [AliExpress](https://www.aliexpress.us/item/3256808598031205.html)
 * SSD1306 OLED Display Module 128 x 32 Pixel (qty 1) [Amazon](https://www.amazon.com/dp/B079BN2J8V) [AliExpress](https://www.aliexpress.us/item/3256807486098308.html)
 * WS2812B RGB 5050SMD Individually Addressable LED strip light 60 LED/m DC5V (1m/4ft) [Amazon](https://www.amazon.com/dp/B0956Q3L4Q) [AliExpress](https://www.aliexpress.us/item/3256806929208460.html)

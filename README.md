@@ -1,4 +1,4 @@
-<h1>Distance Sensor Project</h1>
+<h1>Parking Distance Sensor Project</h1>
 
 <img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3809.JPEG" alt="Clips" width=600>
 

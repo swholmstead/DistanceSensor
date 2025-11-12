@@ -28,3 +28,4 @@ If the links don't work, just search for the components from wherever you shop.
 * DC Power Barrel FEMALE Jack 2.1mm (qty 1) [Amazon](https://www.amazon.com/dp/B09ZBN38FS) [AliExpress](https://www.aliexpress.us/item/2251832423972836.html)
 * 5V 3A DC power supply (qty 1) [Amazon](https://www.amazon.com/dp/B09NLMVXMZ) [AliExpress](https://www.aliexpress.us/item/3256806901002886.html)
 * M1.7 x 5mm self-tapping screws (qty 2) [Amazon](https://www.amazon.com/dp/B07GKXMSVR) [AliExpress](https://www.aliexpress.us/item/3256808546142529.html)
+* Wire Brads - 18 awg x 5/8" or 1.2mm x 15.9mm [Amazon](https://www.amazon.com/dp/B001F9R2L0) [AliExpress](https://www.aliexpress.us/item/3256805095938829.html)

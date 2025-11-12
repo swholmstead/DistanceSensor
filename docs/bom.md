@@ -21,7 +21,7 @@ If the links don't work, just search for the components from wherever you shop.
 * SN74AHCT125N Quad Bus Buffer (qty 1) [Amazon](https://www.amazon.com/dp/B0DXK7PWTN) [AliExpress](https://www.aliexpress.us/item/3256807624678371.html)
 * 2k and 3k 1206 SMD resistors (qty 1 each) [Amazon](https://www.amazon.com/dp/B0BB113PJC) [AliExpress](https://www.aliexpress.us/item/3256807716137879.html)
     * Get the assortment pack with both resistor values in the same set
-* PCB Headers 2.54mm pitch [Amazon](https://www.amazon.com/dp/B09WH8N3HX) [AliExpress](https://www.aliexpress.us/item/2251832710374973.html)
+* PCB Headers 2.54mm pitch round hole[Amazon](https://www.amazon.com/dp/B09WH8N3HX) [AliExpress](https://www.aliexpress.us/item/2251832710374973.html)
     * I like to use the round hole headers because they are lower profile and make the case smaller.
 * JST-XH FEMALE connectors 3 pin (qty 1) [Amazon](https://www.amazon.com/dp/B0B2R99X99) [AliExpress](https://www.aliexpress.us/item/3256805824741552.html)
 * JST-XH MALE right angle connector 3 pin (qty 1) [Amazon](https://www.amazon.com/dp/B0BMDZR7RZ) [AliExpress](https://www.aliexpress.us/item/3256808303698578.html)

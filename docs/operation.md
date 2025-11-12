@@ -12,11 +12,17 @@ distance in the EEPROM.
 
 Back out vehicle and pull in to verify operation.
 
+<div style="display: flex; gap: 20px">
 <img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3811.JPEG" alt="Clips" width=400>
 <img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3812.JPEG" alt="Clips" width=400>
+</div>
+<div style="display: flex; gap: 20px">
 <img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3813.JPEG" alt="Clips" width=400>
 <img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3814.JPEG" alt="Clips" width=400>
+</div>
+<div style="display: flex; gap: 20px">
 <img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3815.JPEG" alt="Clips" width=400>
+</div>
 
 
 LED strip will glow faint BLUE when it recognizes a vehicle within about 8 feet.  As you get closer, the GREEN

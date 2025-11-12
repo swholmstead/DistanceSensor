@@ -14,7 +14,7 @@ and push the SAVE button.  It stores that distance in EEPROM so that it will rem
 
 <h2>Table of Contents</h2>
 
-* 3D Models
+* [3D Models](https://www.printables.com/model/1478676-diy-garage-parking-sensor)
 * [Bill of Materials](docs/bom.md)
 * [Schematic and Printed Circuit Board](docs/schematics.md)
 * [Arduino IDE and Software](docs/arduino.md)

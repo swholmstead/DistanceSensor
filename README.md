@@ -1,6 +1,6 @@
 <h1>Parking Distance Sensor Project</h1>
 
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3809.JPEG" alt="Clips" width=600>
+<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3809.JPEG" alt="Clips" width=400>
 
 This is a DIY parking sensor to assist you parking your vehicle in the garage.  It is simple to make and
 is very affordable.  This project contains everything that you need to build the electronics, 3D print

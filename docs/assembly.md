@@ -90,25 +90,3 @@ when pushing.
 Attach case back with 4 M1.7 x 5mm screws.
 
 <img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3806.JPEG" alt="Case" width=400>
-
-
-<h3>Operation</h3>
-
-Attach case at vehicle bumper height and route LED strip to about eye height while sitting in vehicle.
-Plug LED strip into case.  Secure cable and LEDs with clips.
-
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3807.JPEG" alt="Clips" width=600>
-
-Plug in 5V power supply.  Circuit will start immediately.
-
-<img src="https://github.com/swholmstead/DistanceSensor/blob/main/pictures/IMG_3809.JPEG" alt="Clips" width=600>
-
-Place vehicle in ideal parking spot and press Save Button.  This will save the vehicle current position
-distance in the EEPROM.
-
-Back out vehicle and pull in to verify operation.
-
-LED strip will glow faint BLUE when it recognized a vehicle within about 8 feet.  As you get closer, the GREEN
-lights will gradually close in towards the center.  When vehicle is in ideal parking spot, LEDs will turn RED.
-
-System will automatically timeout at turn off after 5 seconds of nothing moving.

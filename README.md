@@ -19,3 +19,4 @@ and push the SAVE button.  It stores that distance in EEPROM so that it will rem
 * [Schematic and Printed Circuit Board](docs/schematics.md)
 * [Arduino IDE and Software](docs/arduino.md)
 * [Assembly Instructions](docs/assembly.md)
+* [Operation](docs/operation.md)

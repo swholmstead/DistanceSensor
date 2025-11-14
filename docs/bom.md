@@ -13,7 +13,7 @@ If the links don't work, just search for the components from wherever you shop.
     * You can also change the number of LEDs in software.  NOTE: More LEDs will draw more power, so you may need
       to check power consumption and ensure the power supply can supply it.
     * Make sure you buy the 5V version, NOT 12V or 24V.
-    * You can different options with various levels of waterproofing
+    * You can buy different options with various levels of waterproofing
         * IP30 - no waterproofing
         * IP65 - covered in clear silicone (I used this one)
         * IP67 - incased in a waterproof sleeve

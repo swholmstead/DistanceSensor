@@ -28,4 +28,4 @@ Back out vehicle and pull in to verify operation.
 LED strip will glow faint BLUE when it recognizes a vehicle within about 8 feet.  As you get closer, the GREEN
 lights will gradually close in towards the center.  When vehicle is in ideal parking spot, LEDs will turn RED.
 
-System will automatically timeout at turn off after 7 seconds of nothing moving.
+System will automatically timeout and turn off after 7 seconds of nothing moving.
